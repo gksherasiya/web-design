@@ -1,0 +1,33 @@
+.header{
+	 background-color: purple;
+	 height: 30px;
+}
+
+.main{
+	background-color: orange;
+	height: 600px;
+}
+
+.entry{
+	background-color: black;
+	height: 30px;
+	width:1000px; 
+	margin:20px; 
+	color: white;
+
+}
+
+.sidebar{
+	background-color: black;
+	height: 200px;
+     width:400px; 
+     margin:20px; 
+     color: white;
+     float: right;
+}
+
+.footer{
+	background-color: blue;
+	height: 30px;
+
+}

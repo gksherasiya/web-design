@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+        .header{
+			height: 90px;
+			background-color:red ;
+			text-align: center;
+			font-size: 50px;
+			padding: 15px;
+			
+		}
+
+		.main{
+			height: 400px;
+			width:25%;
+			background-color:purple ;
+			text-align: center;
+			font-size: 50px;
+			padding: 100px;
+			float: left;
+			border:10px solid white ;
+
+
+
+		}
+		.content{
+
+			
+		}
+        
+        .main2{
+        	height: 400px;
+        	width:75%;
+        	background-color: yellow;
+        	text-align: center;
+        	margin: right;
+        	float: left;
+        	border:solid white 10px ;
+
+
+
+
+        }
+        .main3{
+        	height:200px;
+        	width: 12%;
+        	background-color: orange;
+        	float: right;
+        	border-left: 10px solid white ;
+        	border-bottom:10px solid white ;
+        .main3{
+        	animation-name: main3;
+        	animation-duration: 5s;
+        }
+
+        @keyframes main3{
+
+        	from{
+        	      background-color: red;
+
+        	}
+
+        	to{
+        		background-color: skyblue;
+        	}
+        }
+
+
+        }
+
+        .footer{
+        	height: 50px;
+        	background-color: lightgray;
+        	float: left;
+        	width: 100%;
+        }
+        
